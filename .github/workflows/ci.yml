@@ -24,6 +24,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Npm set registry
+      - run: npm config set registry https://registry.npmjs.org/
+
       - name: Install dependencies
         run: yarn install
 
