@@ -1,7 +1,7 @@
 {
   "name": "react-avancado-boilerplate",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
