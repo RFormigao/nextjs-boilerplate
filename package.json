@@ -2,6 +2,9 @@
   "name": "react-avancado-boilerplate",
   "version": "1.0.0",
   "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
