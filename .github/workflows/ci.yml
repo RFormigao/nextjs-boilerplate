@@ -25,7 +25,7 @@ jobs:
             ${{ runner.os }}-yarn-
             
       - name: Npm set registry
-        run: npm config set registry https://registry.npmjs.org/
+        run: npm config get registry
 
       - name: Install dependencies
         run: yarn install
