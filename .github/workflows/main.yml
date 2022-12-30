@@ -7,3 +7,6 @@ jobs:
     steps:
       - name: Install Dependencies
         run: npm install
+
+      - name: Linting
+        run: yarn lint
